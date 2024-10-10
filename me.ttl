@@ -1,4 +1,6 @@
-<https://samuelbosch.com/#me> 
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<https://raw.githubusercontent.com/samuelbosch/linked-data/refs/heads/main/me.ttl#me> 
     <http://schema.org/height> _:b0 ;
     <http://schema.org/jobTitle> "Software developer" ;
     <http://schema.org/name> "Samuel Bosch" ;
@@ -7,6 +9,13 @@
     <http://schema.org/weight> _:b1 ;
     <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> ;
     <http://schema.org/followsCourse> <https://pietercolpaert.be/teaching/lds/#2024-2025> .
+    foaf:knows <https://lurivasm.github.io/rdf-data/me.ttl> ,
+             <https://bogaert.cloud/me.ttl> ,
+             <https://janvanrensbergen.github.io/#me> ,
+             <https://bocaopubliq.github.io/link_data_solid_study/>
+             <https://thib.goelff.be/me.ttl>
+             <https://shehabeldeenayman.github.io/turtle.ttl>
+             <https://pietercolpaert.be/#me> .
 _:b0 
     <http://schema.org/unitCode> "CMT" ;
     <http://schema.org/value> "188"^^<http://www.w3.org/2001/XMLSchema#integer> ;
