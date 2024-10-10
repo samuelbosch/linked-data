@@ -1,0 +1,17 @@
+<https://samuelbosch.com/#me> 
+    <http://schema.org/height> _:b0 ;
+    <http://schema.org/jobTitle> "Software developer" ;
+    <http://schema.org/name> "Samuel Bosch" ;
+    <http://schema.org/telephone> "0485929815" ;
+    <http://schema.org/url> <https://www.samuelbosch.com> ;
+    <http://schema.org/weight> _:b1 ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> ;
+    <http://schema.org/followsCourse> <https://pietercolpaert.be/teaching/lds/#2024-2025> .
+_:b0 
+    <http://schema.org/unitCode> "CMT" ;
+    <http://schema.org/value> "188"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/QuantitativeValue> .
+_:b1 
+    <http://schema.org/unitCode> "KGM" ;
+    <http://schema.org/value> "88"^^<http://www.w3.org/2001/XMLSchema#integer> ;
+    <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/QuantitativeValue> .
