@@ -15,6 +15,8 @@
              <https://bocaopubliq.github.io/link_data_solid_study/>
              <https://thib.goelff.be/me.ttl>
              <https://shehabeldeenayman.github.io/turtle.ttl>
+             <https://alainjanssens.github.io/me.ttl>
+             <https://epoz.org/20241010.ttl>
              <https://pietercolpaert.be/#me> .
 _:b0 
     <http://schema.org/unitCode> "CMT" ;
